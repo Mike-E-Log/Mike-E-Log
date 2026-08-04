@@ -1,0 +1,56 @@
+<h2 align="center">Mike Ilog · AI Engineer</h2>
+
+<p align="center">
+  <em>I build and evaluate AI to make products work.</em>
+</p>
+
+---
+
+### Selected work
+
+**[GG Tank Watch](https://ggtankwatch.org)** is a civic emergency archive I built during a real May 2026 chemical-tank evacuation (~50,000 residents; [Wikipedia](https://en.wikipedia.org/wiki/Garden_Grove_chemical_leak), [NPR](https://www.npr.org/2026/05/24/nx-s1-5833165/california-chemical-tank-malfunction-leak-explode-emergency-evacuate)). A consumer-facing AI system held inside its authority by code and tests, not prompting:
+
+- **Bounded authority, in code.** The model never writes the published snapshot. Its output clears one validation chokepoint it can't bypass, so the system *cannot* exceed "route to officials."
+- **The asymmetry that matters.** A false all-clear is catastrophic; a false alarm is survivable. So danger *downgrades* need ≥2 sources (including an official agency), while *upgrades* fire on one. Enforced in code, never asked of a model.
+- **A [behavioral harness of 200+ tests](https://github.com/Mike-E-Log/gg-tank-watch/actions/workflows/eval.yml)** — green in CI — catches drift from the safety contract (fabricated sources, authored directives, stale data) before it ships, not after.
+
+[live archive](https://ggtankwatch.org) · [code + method](https://github.com/Mike-E-Log/gg-tank-watch)
+
+---
+
+### Writing
+
+Three essays on AI evaluation, from practice — [mikeilog.com/writing](https://www.mikeilog.com/writing):
+
+- **[What building an emergency dashboard taught me about trustworthy AI](https://www.mikeilog.com/writing/emergency-dashboard-trustworthy-ai/)** — the GG Tank Watch story: five lessons about AI you can trust.
+- **[What AAA QA teaches about AI evaluation](https://www.mikeilog.com/writing/aaa-qa-teaches-ai-evaluation/)** — Square Enix QA as a multi-agent evaluation system before anyone called it that.
+- **[Human-in-the-loop eval and the part you can't ask about](https://www.mikeilog.com/writing/human-in-the-loop-subjective-eval/)** — what a real human-in-the-loop looks like, and when the honest move is to cut the feature.
+
+---
+
+### Contributions
+
+- **[gstack](https://github.com/garrytan/gstack)**
+  - PR [#1554](https://github.com/garrytan/gstack/pull/1554) — fix shipped and [credited](https://github.com/garrytan/gstack/commit/7ca04d8ef03db07764bef66c4252bf7a1699ffec) in the v1.42.0.0 release wave ([#1594](https://github.com/garrytan/gstack/pull/1594))
+  - Open security fix [#1822](https://github.com/garrytan/gstack/pull/1822): withholds the localhost auth token from content-script `getPort` callers
+- **[Claude Code](https://github.com/anthropics/claude-code)**
+  - Reported and diagnosed [session-bloat bug #61613](https://github.com/anthropics/claude-code/issues/61613) in the Read tool's binary-file serialization path (root cause + fix sketch)
+  - Added a reproduction, render-only proof, and fix direction to [scrollback-duplication #51828](https://github.com/anthropics/claude-code/issues/51828#issuecomment-4567557135)
+
+---
+
+### Tools & methods
+
+- **Building AI agents:** Claude Agent SDK, MCP, Anthropic SDK
+- **Languages:** Python, TypeScript
+
+<sub>I pick up new domains fast; everything is language.</sub>
+
+---
+
+### Contact
+
+- **LinkedIn** → [https://www.linkedin.com/in/mikeilog](https://www.linkedin.com/in/mikeilog)
+- **Email** → [mike@mikeilog.com](mailto:mike@mikeilog.com)
+
+<sub>cooperation FTW · US (Pacific time) · remote</sub>
