@@ -8,7 +8,7 @@
 
 ### Selected work
 
-**[GG Tank Watch](https://ggtankwatch.org)** is a civic emergency archive I built during a real May 2026 chemical-tank evacuation (~50,000 residents; [Wikipedia](https://en.wikipedia.org/wiki/Garden_Grove_chemical_leak), [NPR](https://www.npr.org/2026/05/24/nx-s1-5833165/california-chemical-tank-malfunction-leak-explode-emergency-evacuate)). A consumer-facing AI system held inside its authority by code and tests, not prompting:
+**[GG Tank Watch](https://ggtankwatch.org)** is a civic emergency archive I built during a real May 2026 chemical-tank evacuation (~50,000 residents; [Wikipedia](https://en.wikipedia.org/wiki/Garden_Grove_chemical_leak), [NPR](https://www.npr.org/2026/05/24/nx-s1-5833165/california-chemical-tank-malfunction-leak-explode-emergency-evacuate)). While it ran, an LLM (Claude, with web search) summarized official and news updates every 30 minutes. A consumer-facing AI system held inside its authority by code and tests, not prompting:
 
 - **Bounded authority, in code.** The model never writes the published snapshot. Its output clears one validation chokepoint it can't bypass, so the system *cannot* exceed "route to officials."
 - **The asymmetry that matters.** A false all-clear is catastrophic; a false alarm is survivable. So danger *downgrades* need ≥2 sources (including an official agency), while *upgrades* fire on one. Enforced in code, never asked of a model.
@@ -30,12 +30,16 @@ Three essays on AI evaluation, from practice — [mikeilog.com/writing](https://
 
 ### Contributions
 
-- **[gstack](https://github.com/garrytan/gstack)**
-  - PR [#1554](https://github.com/garrytan/gstack/pull/1554) — fix shipped and [credited](https://github.com/garrytan/gstack/commit/7ca04d8ef03db07764bef66c4252bf7a1699ffec) in the v1.42.0.0 release wave ([#1594](https://github.com/garrytan/gstack/pull/1594))
-  - Open security fix [#1822](https://github.com/garrytan/gstack/pull/1822): withholds the localhost auth token from content-script `getPort` callers
+**Open**
+
+- **[gstack](https://github.com/garrytan/gstack)** security fix [#1822](https://github.com/garrytan/gstack/pull/1822): withholds the localhost auth token from content-script `getPort` callers
 - **[Claude Code](https://github.com/anthropics/claude-code)**
   - Reported and diagnosed [session-bloat bug #61613](https://github.com/anthropics/claude-code/issues/61613) in the Read tool's binary-file serialization path (root cause + fix sketch)
   - Added a reproduction, render-only proof, and fix direction to [scrollback-duplication #51828](https://github.com/anthropics/claude-code/issues/51828#issuecomment-4567557135)
+
+**Merged**
+
+- **[gstack](https://github.com/garrytan/gstack)** PR [#1554](https://github.com/garrytan/gstack/pull/1554): fix shipped in squash commit [7ca04d8](https://github.com/garrytan/gstack/commit/7ca04d8ef03db07764bef66c4252bf7a1699ffec), credited in the v1.42.0.0 release wave ([#1594](https://github.com/garrytan/gstack/pull/1594))
 
 ---
 
