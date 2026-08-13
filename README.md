@@ -8,6 +8,8 @@
 
 ### Selected work
 
+**[Business Scenario Judge](https://github.com/Mike-E-Log/business-scenario-judge)** — can you trust an AI to grade another AI? I measured it: one person graded 60 real service chats blind in a labeling tool I built; a calibrated AI judge (its prompt carries the person's example rulings) and an uncalibrated one were then scored on 15 chats kept out of the calibration.
+
 **[GG Tank Watch](https://ggtankwatch.org)** is a civic emergency archive I built during a real May 2026 chemical-tank evacuation (~50,000 residents; [Wikipedia](https://en.wikipedia.org/wiki/Garden_Grove_chemical_leak), [NPR](https://www.npr.org/2026/05/24/nx-s1-5833165/california-chemical-tank-malfunction-leak-explode-emergency-evacuate)). While it ran, an LLM (Claude, with web search) summarized official and news updates every 30 minutes. A consumer-facing AI system held inside its authority by code and tests, not prompting:
 
 - **What if the AI got something wrong?** The design assumed it would. The AI only wrote drafts — a separate, tested program checked every one and controlled what reached the page. And the page never told people what to do: at most, it pointed readers to official sources.
