@@ -8,7 +8,7 @@
 
 ### Selected work
 
-**[GG Tank Watch](https://github.com/Mike-E-Log/gg-tank-watch)** is a civic emergency archive I built during a real May 2026 chemical-tank evacuation (~50,000 residents; [Wikipedia](https://en.wikipedia.org/wiki/Garden_Grove_chemical_leak), [NPR](https://www.npr.org/2026/05/24/nx-s1-5833165/california-chemical-tank-malfunction-leak-explode-emergency-evacuate)). While it ran, an LLM (Claude, with web search) summarized official and news updates every 30 minutes. A consumer-facing AI system held inside its authority by code and tests, not prompting:
+**[GG Tank Watch](https://github.com/Mike-E-Log/gg-tank-watch)** is a civic emergency archive I built during a real May 2026 chemical-tank evacuation (~50,000 residents; [Wikipedia](https://en.wikipedia.org/wiki/Garden_Grove_chemical_leak), [NPR](https://www.npr.org/2026/05/24/nx-s1-5833165/california-chemical-tank-malfunction-leak-explode-emergency-evacuate)). While it ran, an LLM (Claude, with web search) summarized official and news updates every 30 minutes. A consumer-facing AI system with guardrails enforced by code and tests, not prompting:
 
 - **What if the AI got something wrong?** The design assumed it would. The AI only wrote drafts — a separate, tested program checked every one and controlled what reached the page. And the page never told people what to do: at most, it pointed readers to official sources.
 - **The asymmetry that matters.** A false all-clear is catastrophic; a false alarm is survivable. So danger *downgrades* need ≥2 sources (including an official agency), while *upgrades* fire on one. Enforced in code, never asked of a model.
