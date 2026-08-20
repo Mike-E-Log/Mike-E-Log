@@ -1,7 +1,7 @@
 <h2 align="center">Mike Ilog · AI Engineer</h2>
 
 <p align="center">
-  <em>I build and evaluate AI to make products work.</em>
+  <em>I build and evaluate AI systems that hold up in real use.</em>
 </p>
 
 ---
@@ -12,7 +12,7 @@
 
 - **What if the AI got something wrong?** The design assumed it would. The AI only wrote drafts — a separate, tested program checked every one and controlled what reached the page. And the page never told people what to do: at most, it pointed readers to official sources.
 - **The asymmetry that matters.** A false all-clear is catastrophic; a false alarm is survivable. So danger *downgrades* need ≥2 sources (including an official agency), while *upgrades* fire on one. Enforced in code, never asked of a model.
-- **A [behavioral harness of 200+ tests](https://github.com/Mike-E-Log/gg-tank-watch/actions/workflows/eval.yml)** — green in CI — catches drift from the safety contract (fabricated sources, authored directives, stale data) before it ships, not after.
+- **A [behavioral harness of 200+ tests](https://github.com/Mike-E-Log/gg-tank-watch/actions/workflows/eval.yml)** — grown from a red-team analysis of 12 real failure modes, green in CI — catches drift from the safety contract (fabricated sources, authored directives, stale data) before it ships, not after.
 
 > **Start here (main repo)** → [gg-tank-watch](https://github.com/Mike-E-Log/gg-tank-watch)
 >
@@ -20,7 +20,7 @@
 >
 > **Safety testing & evidence** → [gg-tank-watch-method](https://github.com/Mike-E-Log/gg-tank-watch-method)
 
-**[Business Scenario Judge](https://github.com/Mike-E-Log/business-scenario-judge)** — a method study: can you trust an AI judge to grade another AI? I blind-graded 60 real service chats in a labeling tool I built, calibrated an AI judge on my rulings, and measured it against an uncalibrated judge on held-out chats — every ruling committed, all the math re-runnable by anyone, the honest result up front.
+**[Business Scenario Judge](https://github.com/Mike-E-Log/business-scenario-judge)** — a method study: can you trust an AI judge to grade another AI? I blind-graded 60 real service chats in a labeling tool I built, closely calibrated an AI judge against a human expert's rulings — mine — and measured it against an uncalibrated judge on held-out chats — every ruling committed, all the math re-runnable by anyone, the honest result up front.
 
 ---
 
@@ -54,7 +54,7 @@ Three essays on AI evaluation, from practice — [mikeilog.com/writing](https://
 - **Building AI agents:** Claude Agent SDK, MCP, Anthropic SDK
 - **Languages:** Python, TypeScript
 
-<sub>I pick up new domains fast; everything is language.</sub>
+<sub>What I can do beats where I learned it. I pick up new domains fast; everything is language.</sub>
 
 ---
 
