@@ -1,8 +1,7 @@
 <h2 align="center">Mike Ilog · AI Engineer</h2>
 
 <p align="center">
-  <em>I build AI systems that hold up in real use — and the evaluations that prove it.</em><br>
-  <em>I learn by building, and I learn fast: new fields are new vocabularies over familiar patterns.</em>
+  <em>I build AI systems that hold up in real use — and the evaluations that prove it.</em>
 </p>
 
 ---
