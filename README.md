@@ -1,7 +1,8 @@
 <h2 align="center">Mike Ilog · AI Engineer</h2>
 
 <p align="center">
-  <em>I build and evaluate AI systems that hold up in real use.</em>
+  <em>I build AI systems that hold up in real use — and the evaluations that prove it.</em><br>
+  <em>I learn by building, and I learn fast: new fields are new vocabularies over familiar patterns.</em>
 </p>
 
 ---
@@ -53,8 +54,6 @@ Three essays on AI evaluation, from practice — [mikeilog.com/writing](https://
 
 - **Building AI agents:** Claude Agent SDK, MCP, Anthropic SDK
 - **Languages:** Python, TypeScript
-
-<sub>What I can do beats where I learned it. I pick up new domains fast; everything is language.</sub>
 
 ---
 
