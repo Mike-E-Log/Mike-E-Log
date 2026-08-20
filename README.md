@@ -1,4 +1,4 @@
-<h2 align="center">Mike Ilog · AI Engineer</h2>
+<h2 align="center">Mike Ilog · AI Engineer · LLM & Agent Evaluation</h2>
 
 <p align="center">
   <em>I build AI systems that hold up in real use — and the evaluations that prove it.</em>
