@@ -18,7 +18,7 @@
 >
 > **Live Website** → [ggtankwatch.org](https://ggtankwatch.org)
 >
-> **Safety testing & evidence** → [gg-tank-watch-method](https://github.com/Mike-E-Log/gg-tank-watch-method)
+> **Safety testing & evidence** → [gg-tank-watch/docs](https://github.com/Mike-E-Log/gg-tank-watch/tree/main/docs)
 
 ---
 
