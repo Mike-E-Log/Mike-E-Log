@@ -20,8 +20,6 @@
 >
 > **Safety testing & evidence** → [gg-tank-watch-method](https://github.com/Mike-E-Log/gg-tank-watch-method)
 
-**[Business Scenario Judge](https://github.com/Mike-E-Log/business-scenario-judge)** — a method study: can you trust an AI judge to grade another AI? I blind-graded 60 real service chats in a labeling tool I built, closely calibrated an AI judge against a human expert's rulings — mine — and measured it against an uncalibrated judge on held-out chats — every ruling committed, all the math re-runnable by anyone, the honest result up front.
-
 ---
 
 ### Writing
