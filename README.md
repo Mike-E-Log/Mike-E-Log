@@ -12,7 +12,7 @@
 
 - **What if the AI got something wrong?** The design assumed it would. The AI only wrote drafts — a separate, tested program checked every one and controlled what reached the page. And the page never told people what to do: at most, it pointed readers to official sources.
 - **The asymmetry that matters.** A false all-clear is catastrophic; a false alarm is survivable. So danger *downgrades* need ≥2 sources (including an official agency), while *upgrades* fire on one. Enforced in code, never asked of a model.
-- **A [behavioral harness of 200+ tests](https://github.com/Mike-E-Log/gg-tank-watch/actions/workflows/eval.yml)** — grown from a red-team analysis of 12 real failure modes, green in CI — catches drift from the safety contract (fabricated sources, authored directives, stale data) before it ships, not after.
+- **A [behavioral test harness](https://github.com/Mike-E-Log/gg-tank-watch/actions/workflows/eval.yml)** — grown from a red-team analysis of 12 real failure modes, green in CI — catches drift from the safety contract (fabricated sources, authored directives, stale data) before it ships, not after.
 
 > **Start here (main repo)** → [gg-tank-watch](https://github.com/Mike-E-Log/gg-tank-watch)
 >
