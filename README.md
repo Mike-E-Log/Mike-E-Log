@@ -36,7 +36,6 @@ Three essays on AI evaluation, from practice — [mikeilog.com/writing](https://
 
 **Open**
 
-- **[gstack](https://github.com/garrytan/gstack)** security fix [#1822](https://github.com/garrytan/gstack/pull/1822): withholds the localhost auth token from content-script `getPort` callers
 - **[Claude Code](https://github.com/anthropics/claude-code)**
   - Reported and diagnosed [session-bloat bug #61613](https://github.com/anthropics/claude-code/issues/61613) in the Read tool's binary-file serialization path (root cause + fix sketch)
   - Added a reproduction, render-only proof, and fix direction to [scrollback-duplication #51828](https://github.com/anthropics/claude-code/issues/51828#issuecomment-4567557135)
@@ -44,6 +43,10 @@ Three essays on AI evaluation, from practice — [mikeilog.com/writing](https://
 **Merged**
 
 - **[gstack](https://github.com/garrytan/gstack)** PR [#1554](https://github.com/garrytan/gstack/pull/1554): fix shipped in squash commit [7ca04d8](https://github.com/garrytan/gstack/commit/7ca04d8ef03db07764bef66c4252bf7a1699ffec), credited in the v1.42.0.0 release wave ([#1594](https://github.com/garrytan/gstack/pull/1594))
+
+**Superseded (fix shipped upstream)**
+
+- **[gstack](https://github.com/garrytan/gstack)** PR [#1822](https://github.com/garrytan/gstack/pull/1822): security fix (the extension handed its localhost auth token to content-script `getPort` callers), validated by a repo contributor; closed as superseded by the maintainer's broader reimplementation in commit [008dd65](https://github.com/garrytan/gstack/commit/008dd65b1fc3df8af618408f5aea37a24dcea411) (v1.64.0.0), which cites the PR. Credit correction requested in [#3054](https://github.com/garrytan/gstack/issues/3054).
 
 ---
 
