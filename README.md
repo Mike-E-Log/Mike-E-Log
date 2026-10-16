@@ -4,6 +4,10 @@
   <em>I build AI systems that hold up in real use — and the evaluations that prove it.</em>
 </p>
 
+<p align="center">
+  I design the evals and safety rules and direct AI coding agents to build the code.
+</p>
+
 ---
 
 ### Selected work
@@ -19,6 +23,8 @@
 > **Live Website** → [ggtankwatch.org](https://ggtankwatch.org)
 >
 > **Safety testing & evidence** → [gg-tank-watch/docs](https://github.com/Mike-E-Log/gg-tank-watch/tree/main/docs)
+
+**[Business Scenario Judge](https://github.com/Mike-E-Log/business-scenario-judge)** — Can you trust an AI to grade another AI? This repo checks. 60 blind rulings by hand, a held-out set, kappa, and an honest null result.
 
 ---
 
